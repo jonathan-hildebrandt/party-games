@@ -12,7 +12,7 @@
     "format": "prettier --write .",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "start": "next start",
+    "start": "node .next/standalone/server.js",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "@tanstack/react-query-devtools": "^5.85.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^17.2.1",
     "lucide-react": "^0.539.0",
     "next": "15.4.6",
     "next-themes": "^0.4.6",
