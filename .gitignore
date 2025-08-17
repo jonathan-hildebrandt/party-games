@@ -43,6 +43,9 @@ next-env.d.ts
 # drizzle
 /drizzle
 
+# eslint
+.eslintcache
+
 deploy.sh
 docker-compose.yml
 Dockerfile
