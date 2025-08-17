@@ -1,7 +1,6 @@
-import { env } from '@/env/server';
-import 'dotenv/config';
-import { drizzle } from 'drizzle-orm/node-postgres';
+import { env } from '@/env/server'
+import { drizzle } from 'drizzle-orm/node-postgres'
 
-const db = drizzle(env.DATABASE_URL);
+const db = drizzle(env.DATABASE_URL)
 
-export default db;
+export default db
