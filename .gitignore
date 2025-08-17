@@ -45,7 +45,3 @@ next-env.d.ts
 
 # eslint
 .eslintcache
-
-deploy.sh
-docker-compose.yml
-Dockerfile

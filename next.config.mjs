@@ -9,7 +9,6 @@ jiti('./src/env/server')
 const config = {
   output: 'standalone',
   transpilePackages: ['@t3-oss/env-nextjs', '@t3-oss/env-core'],
-  compress: false,
 }
 
 export default config
