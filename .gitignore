@@ -40,4 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-src/prisma/generated
+# drizzle
+/drizzle
+
+deploy.sh
+docker-compose.yml
+Dockerfile
