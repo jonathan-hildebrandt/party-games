@@ -9,7 +9,6 @@ const config = {
   proseWrap: 'preserve',
   arrowParens: 'always',
   plugins: [
-    'prettier-plugin-prisma',
     'prettier-plugin-packagejson',
     'prettier-plugin-organize-imports',
     'prettier-plugin-jsdoc',

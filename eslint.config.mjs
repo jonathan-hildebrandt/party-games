@@ -10,7 +10,15 @@ const compat = new FlatCompat({ baseDirectory: __dirname })
 
 const config = [
   {
-    ignores: ['.next/**', 'node_modules/**', 'src/prisma/generated/**'],
+    ignores: [
+      'node_modules/**',
+      '.next/**',
+      'dist/**',
+      'build/**',
+      'coverage/**',
+      'public/**',
+      '.husky/**',
+    ],
   },
 
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
